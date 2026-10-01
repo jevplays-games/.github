@@ -1,19 +1,55 @@
+<img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/banner.jpg" alt="Pixel-art neon arcade: a friendly robot reaches over a table to drop a disc into a Connect Four grid, with a tic-tac-toe board beside it" width="100%">
+
 # JEV Plays Games
+
+**Humans versus Jev, one arcade cabinet at a time.**
 
 Open-source games and agents played by **Jev**, TypeSafe AI's System One model. Each repository states what was and was not exercised when it was packaged.
 
+[jevplay.games](https://jevplay.games) · [Sudoku duel](https://sudoku.jevplay.games) · [Contributing](CONTRIBUTING.md) · [Support](SUPPORT.md) · [Security](SECURITY.md)
+
 ## JEV Arcade
 
-Nine playable games where a human faces Jev, each with a server-side Jev adapter, Discord identity and analytics (most also document leaderboards and replays):
+Nine playable games where a human faces Jev, each with a server-side Jev adapter, Discord identity and analytics (most also document leaderboards and replays). The [hub](https://github.com/jevplays-games/jev-arcade-hub) is a launcher that links to each game; the site is [jevplay.games](https://jevplay.games).
 
-[2048](https://github.com/jevplays-games/jev-2048-arcade) · [Checkers](https://github.com/jevplays-games/jev-checkers-analytics) · [Connect Four](https://github.com/jevplays-games/jev-connect-four) · [Dots and Boxes](https://github.com/jevplays-games/jev-dots-and-boxes) · [Guess Who](https://github.com/jevplays-games/jev-guess-who) · [Mastermind](https://github.com/jevplays-games/jev-mastermind) · [Minesweeper](https://github.com/jevplays-games/jev-minesweeper) · [Sudoku](https://github.com/jevplays-games/jev-sudoku-analytics) · [Tic-Tac-Toe](https://github.com/jevplays-games/jev-tic-tac-toe)
-
-The [hub](https://github.com/jevplays-games/jev-arcade-hub) is a launcher that links to each game; the site is [jevplay.games](https://jevplay.games).
-
-## Factorio
-
-- [jev-factorio-agent](https://github.com/jevplays-games/jev-factorio-agent): Jev makes goal and next-action decisions as typed questions; deterministic code owns game rules and actuation.
-- [jev-factorio-mission-control](https://github.com/jevplays-games/jev-factorio-mission-control): a snapshot of the OBS overlay for the Factorio stream as deployed, traced to its source.
+<table>
+<tr>
+<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-board.jpg" alt="Pixel-art Connect Four grid and checkers board on a neon arcade table" width="200"></td>
+<td valign="top">
+<h3>Board games</h3>
+<a href="https://github.com/jevplays-games/jev-connect-four"><b>jev-connect-four</b></a>: server-authoritative matches, Discord identity, community leaderboards and analytics.<br>
+<a href="https://github.com/jevplays-games/jev-checkers-analytics"><b>jev-checkers-analytics</b></a>: American checkers with inspectable decisions, verified leaderboards and first-party analytics.<br>
+<a href="https://github.com/jevplays-games/jev-tic-tac-toe"><b>jev-tic-tac-toe</b></a>: authoritative backend, verified leaderboards and exhaustive rules-space analytics.<br>
+<a href="https://github.com/jevplays-games/jev-dots-and-boxes"><b>jev-dots-and-boxes</b></a>: server-side Jev opponent, deterministic replays and exportable analytics.
+</td>
+</tr>
+<tr>
+<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-puzzle.jpg" alt="Pixel-art sliding blocks, a bomb, a flag and a row of colored code pegs" width="200"></td>
+<td valign="top">
+<h3>Puzzle and deduction games</h3>
+<a href="https://github.com/jevplays-games/jev-2048-arcade"><b>jev-2048-arcade</b></a>: 2048 duel between a human and Jev on separate boards, with a TypeSafe adapter, Discord identity and analytics.<br>
+<a href="https://github.com/jevplays-games/jev-sudoku-analytics"><b>jev-sudoku-analytics</b></a>: Sudoku duel on separate boards with a server-owned race clock and an analytics workbench (<a href="https://sudoku.jevplay.games">sudoku.jevplay.games</a>).<br>
+<a href="https://github.com/jevplays-games/jev-minesweeper"><b>jev-minesweeper</b></a>: two-board Minesweeper race with deterministic replays, verified leaderboards and replay analytics.<br>
+<a href="https://github.com/jevplays-games/jev-mastermind"><b>jev-mastermind</b></a>: two-leg Mastermind with a server-authoritative backend, replay verification and deduction analytics.<br>
+<a href="https://github.com/jevplays-games/jev-guess-who"><b>jev-guess-who</b></a>: server-authoritative deduction game with 24 original SVG portraits and analytics.
+</td>
+</tr>
+<tr>
+<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-factory.jpg" alt="Pixel-art factory floor with conveyor belts, gears and a small robot overseer" width="200"></td>
+<td valign="top">
+<h3>Factorio</h3>
+<a href="https://github.com/jevplays-games/jev-factorio-agent"><b>jev-factorio-agent</b></a>: Jev makes goal and next-action decisions as typed questions; deterministic code owns game rules and actuation.<br>
+<a href="https://github.com/jevplays-games/jev-factorio-mission-control"><b>jev-factorio-mission-control</b></a>: a snapshot of the OBS overlay for the Factorio stream as deployed, traced to its source.
+</td>
+</tr>
+<tr>
+<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-hub.jpg" alt="Pixel-art arcade cabinet with a smiling robot on the screen" width="200"></td>
+<td valign="top">
+<h3>Hub</h3>
+<a href="https://github.com/jevplays-games/jev-arcade-hub"><b>jev-arcade-hub</b></a>: launcher for the JEV Arcade games.
+</td>
+</tr>
+</table>
 
 ## Limits
 
