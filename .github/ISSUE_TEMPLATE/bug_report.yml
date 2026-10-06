@@ -1,0 +1,60 @@
+name: Bug report
+description: Something in a game, the hub or the Factorio tools does not work as documented.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. Do not include API keys, Discord tokens or player data. For security problems, use the private "Report a vulnerability" form on the Security tab instead of this form.
+  - type: dropdown
+    id: game
+    attributes:
+      label: Which game or tool?
+      options:
+        - 2048 duel (jev-2048-arcade)
+        - Checkers (jev-checkers-analytics)
+        - Connect Four (jev-connect-four)
+        - Dots and Boxes (jev-dots-and-boxes)
+        - Guess Who (jev-guess-who)
+        - Mastermind (jev-mastermind)
+        - Minesweeper (jev-minesweeper)
+        - Sudoku (jev-sudoku-analytics)
+        - Tic-tac-toe (jev-tic-tac-toe)
+        - Arcade hub (jev-arcade-hub)
+        - Factorio agent (jev-factorio-agent)
+        - Mission Control overlay (jev-factorio-mission-control)
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: opponent
+    attributes:
+      label: Who was the opponent?
+      description: Local practice is a labeled mode that is not Jev. Say which one you saw.
+      options:
+        - Live Jev (with a TypeSafe API key)
+        - Local practice (labeled, not Jev)
+        - Not applicable
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Run `npm start` (or open the site)
+        2. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected and what happened
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Node or Python version, browser, operating system, and the commit or version if you know it.

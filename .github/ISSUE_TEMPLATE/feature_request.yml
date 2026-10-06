@@ -1,0 +1,35 @@
+name: Feature or idea
+description: Suggest a change to a game, the hub or the Factorio tools.
+title: "[Idea]: "
+body:
+  - type: dropdown
+    id: game
+    attributes:
+      label: Which game or tool?
+      options:
+        - 2048 duel (jev-2048-arcade)
+        - Checkers (jev-checkers-analytics)
+        - Connect Four (jev-connect-four)
+        - Dots and Boxes (jev-dots-and-boxes)
+        - Guess Who (jev-guess-who)
+        - Mastermind (jev-mastermind)
+        - Minesweeper (jev-minesweeper)
+        - Sudoku (jev-sudoku-analytics)
+        - Tic-tac-toe (jev-tic-tac-toe)
+        - Arcade hub (jev-arcade-hub)
+        - Factorio agent (jev-factorio-agent)
+        - Mission Control overlay (jev-factorio-mission-control)
+        - A new game or the organization in general
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like to see?
+      description: Describe the change and the problem it solves.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you considered
