@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Report a security vulnerability
+    url: https://github.com/jevplays-games/.github/blob/main/SECURITY.md
+    about: Please do not open a public issue. Read the security policy and use the private Report a vulnerability form.
+  - name: Get help
+    url: https://github.com/jevplays-games/.github/blob/main/SUPPORT.md
+    about: Setup questions and where to ask them.
