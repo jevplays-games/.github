@@ -1,6 +1,7 @@
 name: Bug report
 description: Something in a game, the hub or the Factorio tools does not work as documented.
 title: "[Bug]: "
+labels: ["bug"]
 body:
   - type: markdown
     attributes:
@@ -11,16 +12,16 @@ body:
     attributes:
       label: Which game or tool?
       options:
-        - 2048 duel (jev-2048-arcade)
-        - Checkers (jev-checkers-analytics)
-        - Connect Four (jev-connect-four)
-        - Dots and Boxes (jev-dots-and-boxes)
-        - Guess Who (jev-guess-who)
-        - Mastermind (jev-mastermind)
-        - Minesweeper (jev-minesweeper)
-        - Sudoku (jev-sudoku-analytics)
-        - Tic-tac-toe (jev-tic-tac-toe)
-        - Arcade hub (jev-arcade-hub)
+        - Tic-Tac-Typed (jev-tic-tac-typed)
+        - Choice Four (jev-choice-four)
+        - Typecheckers (jev-typecheckers)
+        - Box Score (jev-box-score)
+        - Noul Who (jev-noul-who)
+        - Typecrack (jev-typecrack)
+        - SafeSweep (jev-safesweep)
+        - Typedoku (jev-typedoku)
+        - Slide Score (jev-slide-score)
+        - Hub at jevplay.games (JevPlay-Games)
         - Factorio agent (jev-factorio-agent)
         - Mission Control overlay (jev-factorio-mission-control)
         - Other
@@ -39,22 +40,36 @@ body:
     validations:
       required: true
   - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you did, what you expected and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
     id: steps
     attributes:
       label: Steps to reproduce
+      description: The exact commands or inputs. Use local practice or the offline path where the project has one.
       placeholder: |
         1. Run `npm start` (or open the site)
         2. ...
     validations:
       required: true
-  - type: textarea
-    id: expected
+  - type: input
+    id: version
     attributes:
-      label: What you expected and what happened
+      label: Version or commit
+      description: The commit SHA, release or deployed site you used.
     validations:
       required: true
   - type: input
     id: environment
     attributes:
       label: Environment
-      description: Node or Python version, browser, operating system, and the commit or version if you know it.
+      description: Node or Python version, browser and operating system.
+  - type: textarea
+    id: not-verified
+    attributes:
+      label: What you did not check
+      description: Anything you could not run or confirm, so we do not assume it.
