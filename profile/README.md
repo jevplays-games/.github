@@ -34,7 +34,7 @@ Nine browser games at [jevplay.games](https://jevplay.games), each on its own su
 | [`jev-slide-score`](https://github.com/jevplays-games/jev-2048-arcade) | Slide Score: two-board 2048 against Jev with matched spawns, verified leaderboards and replay analytics | MIT |
 | [`JevPlay-Games`](https://github.com/jevplays-games/jev-arcade-hub) | Launcher for the nine jevplay.games games, linking each to its own subdomain | None yet (MIT being added) |
 | [`jev-factorio-agent`](https://github.com/jevplays-games/jev-factorio-agent) | Factorio agent in which Jev chooses goals and actions as typed questions while deterministic code owns game rules and actuation | MIT |
-| [`jev-factorio-mission-control`](https://github.com/jevplays-games/jev-factorio-mission-control) | Snapshot of the OBS overlay for the Jev Factorio stream as deployed, traced to its upstream source commit | None yet (MIT being added) |
+| [`jev-factorio-mission-control`](https://github.com/jevplays-games/jev-factorio-mission-control) | Snapshot of the OBS overlay for the Jev Factorio stream as deployed, traced to its upstream source commit | MIT |
 
 ## Limits
 
