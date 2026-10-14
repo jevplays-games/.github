@@ -1,60 +1,59 @@
-<img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/banner.jpg" alt="Pixel-art neon arcade: a friendly robot reaches over a table to drop a disc into a Connect Four grid, with a tic-tac-toe board beside it" width="100%">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/banner.png" alt="Pink and ink pixel-window banner: the jevplay.games wordmark beside overlapping retro desktop windows showing a typed tic-tac-toe move, a stepped score chart and Jev, a small boxy robot" width="100%">
+</p>
 
-# JEV Plays Games
+<h1 align="center">jevplay.games</h1>
 
-**Humans versus Jev, one arcade cabinet at a time.**
+<p align="center"><b>Humans versus Jev, one typed decision at a time.</b></p>
 
-Open-source games and agents played by **Jev**, TypeSafe AI's System One model. Each repository states what was and was not exercised when it was packaged.
+Jev is TypeSafe AI's System One model. It answers small structured questions (`Choice`, `Noul`, `Score`) instead of generating free text. In these games every opponent move is one such typed decision, recorded for review.
 
-[jevplay.games](https://jevplay.games) · [Sudoku duel](https://sudoku.jevplay.games) · [Contributing](https://github.com/jevplays-games/.github/blob/main/CONTRIBUTING.md) · [Support](https://github.com/jevplays-games/.github/blob/main/SUPPORT.md) · [Security](https://github.com/jevplays-games/.github/blob/main/SECURITY.md)
+## What we do
 
-## JEV Arcade
+Nine browser games at [jevplay.games](https://jevplay.games), each on its own subdomain with a server-side Jev adapter, Discord identity and analytics; plus a Factorio agent and its stream overlay. Each repository states what was and was not exercised when it was packaged.
 
-Nine playable games where a human faces Jev, each with a server-side Jev adapter, Discord identity and analytics (most also document leaderboards and replays). The [hub](https://github.com/jevplays-games/jev-arcade-hub) is a launcher that links to each game; the site is [jevplay.games](https://jevplay.games).
+<p align="center">
+  <img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-board.png" alt="Pixel window titled Board Games with a tic-tac-toe grid, two checkers pucks and a box being closed by one highlighted rail" width="160">
+  <img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-puzzle.png" alt="Pixel window titled Puzzles with sliding number tiles, a sudoku block with one inverted cell and a small flagged minefield" width="160">
+  <img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-factory.png" alt="Pixel window titled Factorio with a conveyor belt, two gears and Jev the robot holding a clipboard" width="160">
+  <img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-hub.png" alt="Pixel window titled jevplay.games with Jev the robot's head above a grid of launcher squares, one highlighted" width="160">
+</p>
 
-<table>
-<tr>
-<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-board.jpg" alt="Pixel-art Connect Four grid and checkers board on a neon arcade table" width="200"></td>
-<td valign="top">
-<h3>Board games</h3>
-<a href="https://github.com/jevplays-games/jev-connect-four"><b>jev-connect-four</b></a>: Connect Four vs Jev: server-authoritative matches, Discord identity, community leaderboards and analytics.<br>
-<a href="https://github.com/jevplays-games/jev-checkers-analytics"><b>jev-checkers-analytics</b></a>: American checkers against Jev with inspectable decisions, verified leaderboards and first-party analytics.<br>
-<a href="https://github.com/jevplays-games/jev-tic-tac-toe"><b>jev-tic-tac-toe</b></a>: Tic-tac-toe against Jev with an authoritative backend, verified leaderboards and exhaustive rules-space analytics.<br>
-<a href="https://github.com/jevplays-games/jev-dots-and-boxes"><b>jev-dots-and-boxes</b></a>: Dots and Boxes against a server-side Jev opponent, with deterministic replays and exportable analytics.
-</td>
-</tr>
-<tr>
-<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-puzzle.jpg" alt="Pixel-art sliding blocks, a bomb, a flag and a row of colored code pegs" width="200"></td>
-<td valign="top">
-<h3>Puzzle and deduction games</h3>
-<a href="https://github.com/jevplays-games/jev-2048-arcade"><b>jev-2048-arcade</b></a>: 2048 duel between a human and Jev on separate boards, with a TypeSafe adapter, Discord identity and analytics.<br>
-<a href="https://github.com/jevplays-games/jev-sudoku-analytics"><b>jev-sudoku-analytics</b></a>: Sudoku duel against Jev on separate boards with a server-owned race clock and an analytics workbench.<br>
-<a href="https://github.com/jevplays-games/jev-minesweeper"><b>jev-minesweeper</b></a>: Two-board Minesweeper race against Jev with deterministic replays, verified leaderboards and replay analytics.<br>
-<a href="https://github.com/jevplays-games/jev-mastermind"><b>jev-mastermind</b></a>: Two-leg Mastermind against Jev with a server-authoritative backend, replay verification and deduction analytics.<br>
-<a href="https://github.com/jevplays-games/jev-guess-who"><b>jev-guess-who</b></a>: Guess Who, human vs Jev: a server-authoritative deduction game with 24 original SVG portraits and analytics.
-</td>
-</tr>
-<tr>
-<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-factory.jpg" alt="Pixel-art factory floor with conveyor belts, gears and a small robot overseer" width="200"></td>
-<td valign="top">
-<h3>Factorio</h3>
-<a href="https://github.com/jevplays-games/jev-factorio-agent"><b>jev-factorio-agent</b></a>: Factorio agent in which Jev chooses goals and actions as typed questions while deterministic code owns game rules and actuation.<br>
-<a href="https://github.com/jevplays-games/jev-factorio-mission-control"><b>jev-factorio-mission-control</b></a>: Snapshot of the OBS overlay for the Jev Factorio stream as deployed, traced to its upstream source commit.
-</td>
-</tr>
-<tr>
-<td width="200" align="center"><img src="https://raw.githubusercontent.com/jevplays-games/.github/main/profile/assets/tile-hub.jpg" alt="Pixel-art arcade cabinet with a smiling robot on the screen" width="200"></td>
-<td valign="top">
-<h3>Hub</h3>
-<a href="https://github.com/jevplays-games/jev-arcade-hub"><b>jev-arcade-hub</b></a>: Launcher for the nine JEV Arcade games, linking each to its own subdomain at jevplay.games.
-</td>
-</tr>
-</table>
+## Repositories
+
+| Repository | Summary | License |
+| --- | --- | --- |
+| [`jev-tic-tac-typed`](https://github.com/jevplays-games/jev-tic-tac-toe) | Tic-Tac-Typed against Jev with an authoritative backend, verified leaderboards and exhaustive rules-space analytics | MIT |
+| [`jev-choice-four`](https://github.com/jevplays-games/jev-connect-four) | Choice Four, human vs Jev: four-in-a-row with server-authoritative matches, Discord identity, leaderboards and analytics | MIT |
+| [`jev-typecheckers`](https://github.com/jevplays-games/jev-checkers-analytics) | Typecheckers: American checkers against Jev with inspectable decisions, verified leaderboards and first-party analytics | MIT |
+| [`jev-box-score`](https://github.com/jevplays-games/jev-dots-and-boxes) | Box Score: claim boxes against a server-side Jev opponent, with deterministic replays and exportable analytics | MIT |
+| [`jev-noul-who`](https://github.com/jevplays-games/jev-guess-who) | Noul Who, human vs Jev: a yes/no deduction duel with 24 original portraits, server authority and analytics | MIT |
+| [`jev-typecrack`](https://github.com/jevplays-games/jev-mastermind) | Typecrack, a two-leg code-breaking duel against Jev with server authority, replay verification and deduction analytics | MIT |
+| [`jev-safesweep`](https://github.com/jevplays-games/jev-minesweeper) | SafeSweep: a two-board mine-clearing race against Jev with deterministic replays, verified leaderboards and replay analytics | MIT |
+| [`jev-typedoku`](https://github.com/jevplays-games/jev-sudoku-analytics) | Typedoku: sudoku against Jev on separate boards, with a server-owned race clock and an analytics workbench | MIT |
+| [`jev-slide-score`](https://github.com/jevplays-games/jev-2048-arcade) | Slide Score: two-board 2048 against Jev with matched spawns, verified leaderboards and replay analytics | MIT |
+| [`JevPlay-Games`](https://github.com/jevplays-games/jev-arcade-hub) | Launcher for the nine jevplay.games games, linking each to its own subdomain | None yet (MIT being added) |
+| [`jev-factorio-agent`](https://github.com/jevplays-games/jev-factorio-agent) | Factorio agent in which Jev chooses goals and actions as typed questions while deterministic code owns game rules and actuation | MIT |
+| [`jev-factorio-mission-control`](https://github.com/jevplays-games/jev-factorio-mission-control) | Snapshot of the OBS overlay for the Jev Factorio stream as deployed, traced to its upstream source commit | MIT |
 
 ## Limits
 
-Without credentials the games run in a labeled local-practice mode. That opponent is not Jev, and its results never enter official leaderboards. Live Jev calls need your own TypeSafe API key. Several READMEs state that live provider, Discord and Cloudflare integrations were not exercised when the package was assembled; read each one before relying on it.
+- Without credentials the games run in a labeled local-practice mode. That opponent is not Jev, and its results never enter official leaderboards. Live Jev calls need your own TypeSafe API key.
+- Only Tic-Tac-Typed has been verified live inside Discord. The other eight games are deployed with the same pattern but have not been launched inside Discord yet.
+- `jev-tic-tac-typed`: no live TypeSafe quality claim, real Discord login or production Cloudflare deployment was made during packaging, and the leaderboard is not cheat-proof.
+- `jev-choice-four`: real secrets, Discord setup, a live Jev response, a genuine ranked match, cost limits, backups and alerting are still launch steps; local verification is not a security audit.
+- `jev-typecheckers`: a source release, not a deployment or security certification. A valid hash chain alone does not authenticate a downloaded replay.
+- `jev-box-score`: real TypeSafe inference, Discord consent and a Cloudflare deployment were not exercised during packaging, and search-assisted modes can need much more CPU than a free tier allows.
+- `jev-noul-who`: "exhaustive initial-position coverage" means every secret pair and starter under the tested policies, not every strategy or attack; selection confidence is not a win probability.
+- `jev-typecrack`: live TypeSafe inference, real Discord authorization and Cloudflare deployment were not run with production credentials; their boundaries were exercised with fixtures.
+- `jev-safesweep`: built for the Cloudflare Workers Free plan, with CPU figures from Node rather than workerd; replay controls stop score forgery but cannot prove a player used no outside help.
+- `jev-typedoku`: no live Discord account or paid Jev key was available during assembly, and CPU figures come from Node, close to the 10 ms free-plan limit.
+- `jev-slide-score`: tested application source, not independently audited production security or a live deployment certification.
+- `jev-factorio-agent`: synthetic tests do not replace the native development-VM and production cutover gates.
+- `jev-factorio-mission-control`: a snapshot of a live deployment, not an actively developed source tree; code changes happen upstream.
 
-## Get involved
+<p align="center">
+<a href="https://github.com/jevplays-games/.github/blob/main/CONTRIBUTING.md">Contributing</a> · <a href="https://github.com/jevplays-games/.github/blob/main/SUPPORT.md">Support</a> · <a href="https://github.com/jevplays-games/.github/blob/main/SECURITY.md">Security</a> · Steward: CompleteTech LLC
+</p>
 
-[Contributing](https://github.com/jevplays-games/.github/blob/main/CONTRIBUTING.md) · [Support](https://github.com/jevplays-games/.github/blob/main/SUPPORT.md) · [Security](https://github.com/jevplays-games/.github/blob/main/SECURITY.md) · Steward: Complete Tech LLC
+<p align="center"><sub>An independent project by <a href="https://github.com/jevplays-games">jevplay.games</a> · Steward: CompleteTech LLC<br>Not an official TypeSafe AI publication. The pink, ink and pixel-window styling is a nod to <a href="https://typesafe.ai">typesafe.ai</a>; Jev, System One and TypeSafe are their respective owners' names.</sub></p>

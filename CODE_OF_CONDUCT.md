@@ -8,4 +8,4 @@ We want these projects to be a respectful place to build and play.
 
 This applies in issues, pull requests, discussions and any community space tied to these repositories. Maintainers may edit or remove contributions and restrict participation to enforce it.
 
-Report concerns to Timothy.Gregg@complete.tech (Complete Tech LLC). Reports are handled privately.
+Report concerns to Timothy.Gregg@complete.tech (CompleteTech LLC). Reports are handled privately.
